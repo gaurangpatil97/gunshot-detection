@@ -1,0 +1,17 @@
+# 1. Virtual Environment
+/gunshotvenv/
+
+# 2. Datasets & Extracted Features
+/gunshot-audio-dataset/
+/processed-audio-48k/
+/features/
+
+# 3. Model Weights & Pipelines
+# -------------------------------------------------------------------
+*.pth
+
+# ...EXCEPT the absolute best model!
+!best of the best.pth
+
+# Ignore all joblib files
+*.joblib
