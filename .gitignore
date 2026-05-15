@@ -10,8 +10,15 @@
 # -------------------------------------------------------------------
 *.pth
 
-# ...EXCEPT the absolute best model!
-!best of the best.pth
+best of the best.pth
 
-# Ignore all joblib files
+
+# Pickle files (generated, not source)
+*.pkl
 *.joblib
+
+
+
+# Generated feature files
+**/features/
+**/processed-audio-48k/
